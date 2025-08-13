@@ -1,78 +1,85 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Egbo Chidinma Esther</title>
-    <meta name="description" content="This is my personal website where I share about myself, my skills, interests, and projects.">
-    <meta name="keywords" content="Chidinma, web developer, about me, personal website, skills, interests, projects, contact">
-   <meta name="author" content="Chidinma Egbo">
-   <meta property="og:title" content="About Me - Egbo Chidinma Esther">
-   <meta property="og:description" content="This is my personal website where I share about myself, my skills, interests, and projects.">
-   <meta property="og:image" content="images/me.jpg">
-    <meta property="og:url" content="http://chidinma002.com/about-me">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-    <h1>Chidinma - An Aspiring Web Developer</h1>
-    <figure>
-  <img src="images/me.jpg" alt="This is a photo of myself" class="profile-photo">
-<figcaption>My Photo</figcaption>
-  </figure>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chidinma | Personal Website</title>
+  <link rel="stylesheet" href="./assets/CSS/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#skills">My Skills and Interests</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
-  </header>
-    <section id="about"> 
-      <h2>About Me</h2>
-<p>I'm Chidinma. I'm 17 years old as of August 2025; born on the 10th day of November, 2007.<br> I school at University of Nigeria, Nsukka. I'm an aspiring med student for now. I'm a purpose-driven person. Also a Christian girl<br> I just find tech very intriguing and mentally challenging and that makes me want to learn what's behind it all. I'm currently learning web development, I now understand the basics of html and css but I'm yet to learn about java script. I've heard people talk about how difficult tech is and honestly that's what makes me want to get into it. I love challenges😵. Well I don't really know what i'll do with the skill yet, but till then.<br> I'm kind of an introverted extrovert or an ambivert, as they call it. I just select who I let into my space and energy. It may come out as pride but I call it "protecting my peace". I love people and I'm open to friendships but I'm also aware how bad people can act at times, so que sera sera.</p>
-<blockquote>
-  Brainstorming is my favorite part of the process, I love to think and imagine how things can be done. I also love to write down my thoughts and ideas, it helps me organize my mind and see things clearly.
-</blockquote>
-</section> 
+  <!-- Navigation Menu -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Chi<span>Boo</span></div>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-<section id="skills">
-  <h2>My Skills and Interests</h2>
-  <ul>
-    <li>Studying;I generally just enjoy learning new things</li>
-    <li>Sleeping?😂 Honestly sleep is just underrated... I really love my rest</li>
-    <li>Games and sports, even though I'm bad at them</li>
-    <li>I enjoy music, people find my music taste funny though😂</li>
-    <li>I like writing and reading books(novels)</li>
-    <li>I enjoy watching anime, movies or series, especially when I'm eating or doing chores. Although, I have a bad habit of sleeping while watching these stuffs, that's why I watch while doing other stuffs.</li>
-    <li>I enjoy exercising, and playing too</li>
-    <li>I enjoy making friends, but I'm the kind of person you'd have to approach first 'cause I have social anxiety on some occasions</li>
-  </ul>
-  <blockquote>
-    Beauty and brains, I study both. I love to learn and grow, and I believe that knowledge is power. I also believe that beauty is not just skin deep, it's about how you carry yourself and how you treat others.
-  </blockquote>
-</section>
-
-<section id="projects">
- <h2>Projects</h2>
- <p>Currently building my first "About Me" site</p> 
-</section>
-
-<section id="contact">
-<h2>Contact Me</h2>
-<p>Email: Chidinmaegbo64@gmail.com</p>
-<p><a href="http://www.tiktok.com/@chi.babyboo" target="_blank">You can follow on Tiktok</a></p>
-</section>
-
-    <section id="footer">
-     <footer>
-  <p>Thank you for visiting my website!</p>
-  <p>Feel free to reach out if you have any questions or just want to connect
-  <p>&copy; 2025 Chidinma Egbo. All rights reserved.</p>
-</footer>
+    <section class="hero">
+      <img src="assets/images/me.jpg" alt="Chidinma" class="hero-img">
+      <h1>Hello, I'm <span>Chidinma Esther</span></h1>
+      <p>Aspiring Med Student | Tech Lover | Purpose-Driven</p>
     </section>
-    <script src="script.js"></script>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm Chidinma, a 17-year-old student at University of Nigeria, Nsukka. I’m studying to become a medical doctor, but I’m also fascinated by tech and web development. I’ve started learning HTML and CSS, and I’m enjoying the challenge!
+      </p>
+      <p>
+        I’m introverted but love making genuine connections. I enjoy writing, reflecting, and exploring new ideas. Learning is one of my biggest passions.
+      </p>
+    </section>
+
+    <section id="skills" class="section colored-section">
+      <h2>Skills & Interests</h2>
+      <ul class="skills-list">
+        <li>📖 Love learning and studying</li>
+        <li>💤 Master of naps</li>
+        <li>🎮 Gaming & sports (not great, but I try!)</li>
+        <li>🎧 Music with “interesting” taste</li>
+        <li>📚 Reading novels & writing thoughts</li>
+        <li>🍿 Watching anime or movies (with snacks)</li>
+        <li>🏋️‍♀️ Exercise & movement</li>
+        <li>🤝 Friendly but socially anxious sometimes</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <p>This website is my first personal project, and I’m proud of how far I’ve come. More projects coming soon as I learn JavaScript and beyond!</p>
+    </section>
+
+    <section id="contact" class="section colored-section">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:Chidinmaegbo64@gmail.com">Chidinmaegbo64@gmail.com</a></p>
+      <p><a href="http://www.tiktok.com/@chi.babyboo" target="_blank">Follow me on TikTok</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Thanks for visiting 💜 | Made by Chidinma Esther &copy; 2025</p>
+  </footer>
+
+  <!-- JS for mobile menu toggle -->
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+    
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
